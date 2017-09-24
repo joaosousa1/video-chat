@@ -1,0 +1,21 @@
+{
+  "name": "video-chat",
+  "version": "0.0.1",
+  "description": "p2p chat video envio de signal atraves do socket.io",
+  "main": "server.js",
+  "scripts": {
+    "build": "browserify index.js > public/bundle.js"
+  },
+  "author": "João Sousa",
+  "license": "Copyrigth João Sousa",
+  "dependencies": {
+    "express": "^4.15.3",
+    "getusermedia": "^2.0.1",
+    "simple-peer": "^8.1.1",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0"
+  }
+}
